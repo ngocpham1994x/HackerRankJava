@@ -3,7 +3,7 @@ package com.company;
 import java.util.Scanner;
 
 public class p01stdInstdOut {
-    public static void main() {
+    public static void main(String[] arg) {
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         int b = scan.nextInt();

@@ -10,20 +10,24 @@ import java.util.regex.*;
 
 public class p02Ifelse {
     private static final Scanner scanner = new Scanner(System.in);
-    public static void main() {
+    public static void main(String[] arg) {
         int N = scanner.nextInt();
-        if (N % 2 == 1) {
-            System.out.println("Weird");
-        }
-        if (N % 2 == 0 && N >= 2 && N <= 5) {
-            System.out.println("Not Weird");
-        }
-        if (N % 2 == 0 && N >= 6 && N <= 20)  {
-            System.out.println("Weird");
-        }
-        if (N % 2 == 0 && N > 20) {
-            System.out.println("Not Weird");
-        }
+            if (1<=N && N<=100) {
+                if (N % 2 == 1) {
+                    System.out.println("Weird");
+                }
+                else {
+                    if (N >= 2 && N <= 5) {
+                        System.out.println("Not Weird");
+                    }
+                    if (N >= 6 && N <= 20) {
+                        System.out.println("Weird");
+                    }
+                    if (N > 20) {
+                        System.out.println("Not Weird");
+                    }
+                }
+            }
         //scanner.close();
     }
 }

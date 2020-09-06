@@ -3,7 +3,7 @@ package com.company;
 import java.util.*;
 
 public class p03stdInstdOutII {
-    public static void main(){
+    public static void main(String[] arg){
         Scanner scan3 = new Scanner(System.in);
         int i = scan3.nextInt();
         double d = scan3.nextDouble();
